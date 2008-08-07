@@ -1,0 +1,4 @@
+category: Net KDE
+requires: cygwin kdelibs4 qt3 libX11_6
+sdesc: "KDE IRC client"
+ldesc: "Konversation is an IRC client for KDE."
