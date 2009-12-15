@@ -1,6 +1,0 @@
-inherit kde3
-
-DESCRIPTION="KDE IRC client"
-HOMEPAGE="http://konversation.kde.org/"
-SRC_URI="mirror://berlios/${PN}/${P}.tar.bz2"
-PATCH_URI="1.1-no-undefined.patch"
