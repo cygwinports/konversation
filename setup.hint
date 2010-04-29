@@ -1,4 +1,4 @@
 category: Net KDE
-requires: libgcc1 libkabc4 libkdecore5 libphonon4 libqca2 libQt3Support4 libQtCore4 libQtDBus4 libQtGui4 libQtNetwork4 libQtXml4 libstdc++6 libX11_6 libXss1
+requires: libgcc1 libkdecore5 libkpim4 libphonon4 libqca2 libQt3Support4 libQtCore4 libQtDBus4 libQtGui4 libQtNetwork4 libQtXml4 libstdc++6 libX11_6 libXss1
 sdesc: "KDE IRC client"
 ldesc: "Konversation is an IRC client for KDE."
