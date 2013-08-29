@@ -1,4 +1,4 @@
-inherit kde4
+inherit kde4 python
 
 NAME="konversation"
 VERSION=1.4
