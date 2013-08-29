@@ -1,0 +1,10 @@
+inherit kde4
+
+NAME="konversation"
+VERSION=1.4
+RELEASE=1
+CATEGORY="Net"
+SUMMARY="KDE IRC client"
+DESCRIPTION="Konversation is an IRC client for the KDE desktop."
+HOMEPAGE="http://konversation.kde.org/"
+SRC_URI="mirror://kde/stable/${NAME}/${VERSION}/src/${NAME}-${VERSION}.tar.xz"
