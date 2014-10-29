@@ -2,9 +2,19 @@ inherit kde4 python
 
 NAME="konversation"
 VERSION=1.5
-RELEASE=1
+RELEASE=2
 CATEGORY="Net"
 SUMMARY="KDE IRC client"
 DESCRIPTION="Konversation is an IRC client for the KDE desktop."
 HOMEPAGE="http://konversation.kde.org/"
 SRC_URI="mirror://kde/stable/${NAME}/${VERSION}/src/${NAME}-${VERSION}.tar.xz"
+PATCH_URI="
+	fedora/0003-Don-t-choke-on-empty-lines-in-etc-os-release.patch
+	fedora/0004-Force-C-locale-when-executing-df.patch
+	fedora/0007-Give-a-Konvi-a-hint-that-Cantata-is-an-audio-type-pl.patch
+	fedora/0011-Fix-wildcard-expansion-in-command-alias-replacements.patch
+	fedora/0016-Update-cached-auto-join-command-when-setting-CHANTYP.patch
+	fedora/0018-Fix-viewtype-check-during-setup.patch
+	fedora/0019-Fix-incorrect-getAutomaticRequest-usage.patch
+	fedora/0023-Do-a-bounds-check-on-ECB-blocks.patch
+"
