@@ -1,12 +1,10 @@
-inherit kde4 python
+inherit kf5 python
 
 NAME="konversation"
-VERSION=1.5.1
+VERSION=1.6
 RELEASE=1
 CATEGORY="Net"
 SUMMARY="KDE IRC client"
 DESCRIPTION="Konversation is an IRC client for the KDE desktop."
 HOMEPAGE="http://konversation.kde.org/"
 SRC_URI="mirror://kde/stable/${NAME}/${VERSION}/src/${NAME}-${VERSION}.tar.xz"
-
-REQUIRES="kde-runtime"
